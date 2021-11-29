@@ -570,6 +570,15 @@ text-align: center;
     .footer-link{
         font-size: 15px;
     }
+    .header-title{
+        font-size: 22px;
+    }
+    .header-icon{
+        width: 18px;
+    }
+    .header-img{
+        width: 20px;
+    }
 
 }
 
