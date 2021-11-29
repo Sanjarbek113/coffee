@@ -260,6 +260,9 @@ text-align: center;
     .container{
         width: 1000px;
     }
+    .header-img{
+        display: none;
+    }
 }
 
 @media(max-width:1020px){
@@ -578,6 +581,14 @@ text-align: center;
     }
     .header-img{
         width: 20px;
+    }
+    .header-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .char-text{
+        font-size: 15px;
     }
 
 }
