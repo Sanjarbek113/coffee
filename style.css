@@ -22,7 +22,7 @@
     
 }
 .header-item{
-    padding: 5px;
+    padding: 10px;
 }
 .list-header{
     padding: 10px;
@@ -36,7 +36,6 @@
 .header-link:hover{
     color: #333D4B;
 }
-
 .main-flex{
     margin-top: 40px;
     padding-top: 100px;
@@ -46,7 +45,7 @@
     background-size: cover;
     background-position-x: -150px;
     border-radius: 15px;
-    
+        
 }
 
 .main-title{
@@ -245,12 +244,302 @@ text-align: center;
     padding-bottom: 20px;
 }
 .footer-item{
-    padding: 3px;
+    padding: 10px;
 }
 .footer-link{
     color: grey;
 }
 .footer-title{
     color: white;
+}
+.header-img{
+    width: 30px;
+}
+
+@media(max-width:1160px){
+    .container{
+        width: 1000px;
+    }
+}
+
+@media(max-width:1020px){
+    .container{
+        width: 900px;
+    }
+    .main-title{
+        font-size: 60px;
+    }
+    .main-text{
+        font-size: 20px;
+    }
+    .main-flex{
+        background-image: url(./images/Bitmap.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -250px;
+        border-radius: 15px;
+    }
+    .sector-text{
+        font-size: 15px;
+    }
+    .sector-img{
+        width: 200px;
+    }
+    .char-title{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:920px){
+    .container{
+        width: 800px;
+    }
+    .main-text{
+        font-size: 17px;
+    }
+    .sector-img{
+        width: 180px;
+    }
+    .char-title{
+        font-size: 25px;
+    }
+    .char-text{
+        font-size: 13px;
+    }
+    .foot-title{
+        font-size: 22px;
+    }
+    .foot-text{
+        font-size: 15px;
+    }
+    .sector-flex{
+         
+    background-image: url(./images/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: 100%;
+    }
+}
+
+@media(max-width:820px){
+    .container{
+        width: 700px;
+    }
+    .main-title{
+        font-size: 50px;
+    }
+    .main-text{
+        width: 60%;
+    }
+    .main-flex{
+        background-position-x: -130px;
+    }
+    .sector-flex{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .foot-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-list{
+        width: 600px;
+    }
+    .foot-text{
+        padding-left: 100px;
+    }
+    .foot-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .foot-img{
+        width: 80px;
+    }
+    .box-text{
+        font-size: 15px;
+    }
+    .char-title{
+        font-size: 20px;
+    }
+    .char-icon{
+        width: 20px;
+    }
+    .char-img{
+        width: 70px;
+    }
+    .char-text{
+        font-size: 10px;
+    }
+    .char-btn{
+        width: 100px;
+        font-size: 10px;
+    }
+    .footer-link{
+        font-size: 14px;
+    }
+    .footer-img{
+        width: 20px;
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link{
+        font-size: 20px;
+    }
+    .sector-flex{
+         
+    background-image: url(./images/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-y: 25%;
+    }
+
+
+}
+
+@media(max-width:720px){
+    .container{
+        width: 600px;
+    }
+    .main-title{
+        font-size: 35px;
+    }
+    .main-text{
+        font-size: 16px;
+    }
+    .main-flex{
+        background-image: url(./images/Bitmap.jpg);
+        background-repeat: no-repeat;
+        background-size: 170%;
+        border-radius: 15px;
+    }
+    .sector-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .sector-list{
+        width: 40%;
+    }
+    .sector-img{
+        width: 200px;
+    }
+    .header-img{
+        display: none;
+    }
+}
+
+@media(max-width:620px){
+    .container{
+        width: 500px;
+    }
+    .foot-list{
+        width: 400px;
+    }
+    .header-img{
+        display: inline;
+       margin-right: 10px; 
+    }
+    .header-link{
+        display: none;
+    }
+    .main-flex{
+        background-image: url(./images/Bitmap.jpg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        border-radius: 15px;
+        background-position-x: -200px;
+    }
+    .box-text{
+        font-size: 10px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+     .char-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .char-list{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+    }
+    .char-title{
+        width: 120%;
+        font-size: 30px;
+    }
+    .char-text{
+        width: 300px;
+        font-size: 18px;
+        line-height: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .button-flex{
+        text-align: center;
+         align-items: center;
+    }
+    .char-btn{
+        width: 150px;
+        height: 33px;
+        font-size:15px;
+    }
+    .footer-item{
+        padding: 10px;
+    }
+}
+
+@media(max-width:520px){
+    .container{
+        width: 400px;
+    }
+    .main-flex{
+        background-image: url(./images/Bitmap.jpg);
+        background-repeat: no-repeat;
+        background-size: 220%;
+        border-radius: 15px;
+        background-position-x: -200px;
+    }
+    .main-title{
+        font-size: 25px;
+    }
+    .main-text{
+        font-size: 12px;
+    }
+    .main-btn{
+        width: 100px;
+        height: 22px;
+        font-size: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .sector-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sector-list{
+        width: 80%;
+    }
+    .sector-img{
+        width: 250px;
+    }
+    .sector-text{
+        font-size: 20px;
+    }
 }
 
