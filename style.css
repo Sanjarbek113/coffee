@@ -542,4 +542,34 @@ text-align: center;
         font-size: 20px;
     }
 }
+@media(max-width:420px){
+    .container{
+        width: 300px;
+    }
+    .main-flex{
+        background-image: url(./images/Bitmap.jpg);
+        background-repeat: no-repeat;
+        background-size:400%;
+        border-radius: 15px;
+        background-position-x: -500px;
+        background-size: cover;
+    }
+    .main-title{
+        width: 80%;
+    }
+    .foot-list{
+        width: 200px;
+    }
+    .foot-text{
+        width: 100%;
+            display: none;
+    }
+    .segment-title{
+        margin-left: 70px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
+
+}
 
