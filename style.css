@@ -21,6 +21,9 @@
     align-items: center;
     
 }
+.header-img{
+    display: none;
+}
 .header-item{
     padding: 10px;
 }
